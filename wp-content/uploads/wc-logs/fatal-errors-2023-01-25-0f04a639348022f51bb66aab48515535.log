@@ -1,0 +1,6 @@
+2023-01-25T03:35:20+00:00 CRITICAL syntax error, unexpected ''woocommerce_show_variation_pr' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp\htdocs\beautyworld\wp-content\themes\astra\functions.php on line 176
+
+2023-01-25T03:35:39+00:00 CRITICAL syntax error, unexpected ''woocommerce_show_variation_pr' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp\htdocs\beautyworld\wp-content\themes\astra\functions.php on line 176
+
+2023-01-25T03:36:29+00:00 CRITICAL Out of memory (allocated 75497472) (tried to allocate 32768 bytes) in C:\xampp\htdocs\beautyworld\wp-content\plugins\astra-sites\inc\importers\wxr-importer\class-wxr-importer.php on line 1672
+

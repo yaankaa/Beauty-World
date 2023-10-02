@@ -1,0 +1,25 @@
+2023-01-24T14:48:54+00:00 CRITICAL Uncaught Error: Call to a member function get_transaction_id() on null in C:\xampp\htdocs\beautyworld\wp-content\plugins\esewa\index.php:44
+Stack trace:
+#0 C:\xampp\htdocs\beautyworld\wp-includes\class-wp-hook.php(308): esewa_woocommerce_change_order_received_text('', NULL)
+#1 C:\xampp\htdocs\beautyworld\wp-includes\plugin.php(205): WP_Hook->apply_filters('Thank you. Your...', Array)
+#2 C:\xampp\htdocs\beautyworld\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(84): apply_filters('woocommerce_tha...', 'Thank you. Your...', NULL)
+#3 C:\xampp\htdocs\beautyworld\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\beautyworld\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#5 C:\xampp\htdocs\beautyworld\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(1425)
+#6 C:\xampp\htd in C:\xampp\htdocs\beautyworld\wp-content\plugins\esewa\index.php on line 44
+
+2023-01-24T15:31:10+00:00 CRITICAL Uncaught Error: Call to undefined function et_get_option() in C:\xampp\htdocs\beautyworld\wp-content\themes\astra\functions.php:178
+Stack trace:
+#0 C:\xampp\htdocs\beautyworld\wp-includes\class-wp-hook.php(308): de_add_to_cart_button('')
+#1 C:\xampp\htdocs\beautyworld\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\beautyworld\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\beautyworld\wp-settings.php(617): do_action('init')
+#4 C:\xampp\htdocs\beautyworld\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\beautyworld\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\beautyworld\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\beautyworld\wp-admin\theme-editor.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\beautyworld\wp-content\themes\astra\functions.php on line 178
+
+2023-01-24T16:32:19+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\beautyworld\wp-content\themes\astra\functions.php on line 184
+
